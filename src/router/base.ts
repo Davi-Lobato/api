@@ -4,7 +4,7 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get('/', function (req, res) {
+router.get('/', function (req: any, res: any) {
     res.send({
         api_name: 'api-contatos',
         descricao: 'API para gestão de contatos',
@@ -12,7 +12,7 @@ router.get('/', function (req, res) {
     });
 });
 
-router.get('/sobre', function (req, res) {
+router.get('/sobre', function (req: any, res: any) {
     res.send({
         name: 'João Teixeira',
         email: 'joao.teixeira@ifro.edu.br',

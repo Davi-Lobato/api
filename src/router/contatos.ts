@@ -1,18 +1,18 @@
 // Arquivo: src/router/contato.ts
 
-import { Router } from "express";
+import { Response, Router } from "express";
 import { isValidateObjectRequest } from '../helpers/validate';
 import { loadContatos, saveContato } from '../helpers/load-data';
 
 const router = Router();
 
-router.get('/', function (req, res) {
+router.get('/', function (req: any, res: any) {
     const contatos = loadContatos();
 
     res.send(contatos);
 });
 
-router.post('/', function (req, res) {
+router.post('/', function  (req: any, res: any) {
     let ok = true;
     let mensagem = "Contato salvo com sucesso!";
 

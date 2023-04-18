@@ -1,7 +1,6 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/main.ts",
@@ -17,5 +16,14 @@
     "@types/express": "^4.17.17",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davi-Lobato/api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Davi-Lobato/api/issues"
+  },
+  "homepage": "https://github.com/Davi-Lobato/api#readme",
+  "description": ""
 }
