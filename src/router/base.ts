@@ -14,9 +14,9 @@ router.get('/', function (req: any, res: any) {
 
 router.get('/sobre', function (req: any, res: any) {
     res.send({
-        name: 'João Teixeira',
-        email: 'joao.teixeira@ifro.edu.br',
-        github: 'github.com/joaoteixeira'
+        name: 'Davi Lobato',
+        email: 'davimlobato7@gmail.com',
+        github: 'github.com/Davi-Lobato'
     });
 });
 
